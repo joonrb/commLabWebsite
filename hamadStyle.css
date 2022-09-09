@@ -1,0 +1,38 @@
+.title{
+    padding: 1px;
+    background-color:magenta;
+    text-align: center;
+}
+
+.subtitle{
+    height: 70px;
+    width: 1520px;    
+    background-color: yellow;
+       
+}
+
+.AU{
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cont{
+    margin-left: 290px;
+    float: left;
+    font-size: 30px;
+
+}
+
+.help{
+    float: right;
+    font-size: 30px;
+
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
