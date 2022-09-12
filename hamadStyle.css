@@ -36,3 +36,20 @@ h1{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.bodyPar{
+    margin-right: 60px;
+    margin-top:20px;
+    padding: 30px;
+    height: 250px;
+    float: right;
+    background-color: lightgreen;
+}
+
+.bodyPar2{
+    margin-top:100px;
+    padding: 30px;
+    height: 250px;
+    background-color: lightgreen;
+    width: 600px;
+}
