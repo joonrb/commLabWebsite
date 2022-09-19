@@ -1,40 +1,112 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
+        <style>
+            hr.top { 
+                border-top: 10px solid black;
+                margin-top: -110px;
+            }
+            hr.sec{
+                border-top: 10px solid black;
+                width: 90%;
+                
+            }
+        </style>
         <link rel = "stylesheet" href="hamadStyle.css">
         <title>Hamad Milkshake</title>
         <div class="title">
             <h1>Hamad Milkshake</h1>
-        </div>
-
-        <div class="subtitle">
-            
-            <div class="AU">
-                <p1 class="AU">About Us</p1>
+            <hr class="top">
+            <div class="container">
+                <div>
+                    <ul>
+                      <li>
+                        <p1 class="cont">Products</p1>
+                        <ul>
+                          <li><a href="shakeOne.html" class="hover1">Classic Hamad Milkshake</a></li>
+                          <li><a href="shakeTwo.html" class="hover2">Vanilla Milkshake</a></li>
+                          <li><a href="shakeThree.html" class="hover3">Caramel Milkshake</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
             </div>
-            <div class="cont">
-                <p1 class="cont">Contact</p1>
-            </div>
-            <div class="help">
-                <p1 class="help">Help</p1>
-            </div>
-        
         </div>
     </head>
 
-        <body>
-        <video width="720" height="360" controls>
-            <source src="HamadMilkshake.MOV" type="video.MOV">
-        </video>
+    <body>
+        <div class="body1">
+            <video width="720" height="360" controls style="margin-top: 200px">
+                <source src="HamadMilkshake.mp4" type="video/mp4">
+            </video>
 
-        <div class="bodyPar">
-            <h2>Our Product!</h2>
-            <p1>The taste and freshness of an oasis in your hands! Welcome to Hamad Milkshake.</p1>
+            <div class="bodyPar">
+                <h2 style="text-align: left">Our Product!</h2>
+                <hr class="sec">
+                <p1>The taste and freshness of an oasis in your hands! Welcome to Hamad Milkshake.</p1>
+            </div>
+        </div>
+        <div>
+            <div class="bodyPar2">
+                <h2>Why Hamad Milkshake?</h2>
+                <p1>Our milkshake is made out of the most fresh ingredients and the most delicious recipe of the entire world</p1>
+                
+            </div>
+            <img src="Hamad Milkshake.png" class="image">
+        </div>
+            <br/>
+
+        <div class="milkshakes">
+            <p2 class="one">Classic Hamad Milkshake</p2>
+            <p2 class="two">Vanilla Milkshake</p2>
+            <p2 class="three">Caramel Milkshake</p2>
         </div>
 
-        <div class="bodyPar2">
-            <h2>Why Hamad Milkshake?</h2>
-            <p1>Our milkshake is made out of the most fresh ingredients and the most delicious recipe of the entire world</p1>
+        <br/>
+
+
+            <a href="shakeOne.html">
+                <img src="1.png" class="shakeOne">
+            </a>
+            <a href="shakeTwo.html" class="shakeTwo">
+                <img src="1.png">
+            </a>
+            <a href="shakeThree.html">
+                <img src="1.png" class="shakeThree">
+            </a>
+
+        <div class="BigGuy">
+
+            <p1 class="reviewPageTitle">Reviews!</p1>
+
+            <div class="reviewOne">
+                <img src="ChessPiece.jpg" class="faceOne">
+                <div class="border">
+                    <div class="secondBorder">
+                        <p1 class="reviewTitle">Best Milkshake Ever!</p1>
+                    </div>
+                        <br/>
+                    <p1 class="reviewCont">I was so thirsty when I ran into this awesome milkshake and omg it was sooo good its like super fresh and super delicious and you have to buy it I swear you won't regret</p1>
+                </div>
+                <br/>
+                <p1 class="nameOne">Sam Allison</p1>
+                
+            </div>
+
+
+            <div class="reviewOne">
+                <img src="ChessPiece.jpg" class="faceOne">
+                <div class="border">
+                    <div class="secondBorder">
+                        <p1 class="reviewTitle">Best Milkshake Ever!</p1>
+                    </div>
+                    <br/>
+                    <p1 class="reviewCont">I was so thirsty when I ran into this awesome milkshake and omg it was sooo good its like super fresh and super delicious and you have to buy it I swear you won't regret</p1>
+                </div>
+                <br/>
+                <p1 class="nameOne">Joey Alcala</p1>
+            </div>
         </div>
     </body>
 </html>
