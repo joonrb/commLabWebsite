@@ -1,55 +1,237 @@
 .title{
-    padding: 1px;
-    background-color:magenta;
     text-align: center;
 }
 
-.subtitle{
-    height: 70px;
-    width: 1520px;    
-    background-color: yellow;
-       
+hr{
+    width: 80%;
+    size: 100px;
+    color: black;
+    margin-top: -50px;
 }
 
-.AU{
-    float: left;
-    font-size: 30px;
-    text-align: center;
+.container{
+    position: sticky;
+    float:right;
+    margin-top: -70px;
+    margin-right: 85px;
+    top: 0;
+    width:300px;
+    text-align: center; 
+    padding: 50px;
+    padding-bottom: 150px;
 }
 
-.cont{
-    margin-left: 290px;
-    float: left;
-    font-size: 30px;
 
-}
-
-.help{
-    float: right;
-    font-size: 30px;
-
-}
 
 h1{
     color: black;
-    font-size: 50px;
+    font-size: 150px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
+.cont{
+    font-size: 70px;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ul{
+    display: inline;
+    margin-left: -40px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li:hover{
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul li ul{
+    position: absolute;
+    width: 275px;
+    display: none;
+}
+
+ul li ul li{ 
+    background: white; 
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    //margin 
+}
+
+ul li ul li a{
+    display:block !important;
+} 
+
+ul li ul li:hover{
+    background: yellow;
+}
+
+.hover1{
+    font-size: 14px;
+}
+
+.hover2{
+    font-size: 14px;
+}
+
+.hover3{
+    font-size: 14px;
+}
+
+
+.body1{
+
+}
+
 .bodyPar{
-    margin-right: 60px;
-    margin-top:20px;
-    padding: 30px;
-    height: 250px;
+    margin-top: -350px;
+    padding: 50px;
+    width: 583px;
+    height: 260px;
     float: right;
-    background-color: lightgreen;
 }
 
 .bodyPar2{
-    margin-top:100px;
+    margin-top:50px;
+    margin-left:30px;
     padding: 30px;
-    height: 250px;
-    background-color: lightgreen;
-    width: 600px;
+    height: 500px;
+    width: 850px;
 }
+
+.image{ 
+    margin-top: -600px;
+    margin-right: 30px;
+    vertical-align: auto;
+    right: 0px;
+    float: right;
+    width: 30%;
+    height: auto;  
+}
+
+.milkshakes{
+    position: relative;
+    width: auto;
+    margin-top: 150px; 
+    text-align: center; 
+}
+
+.one{
+    font-size: 30px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.two{
+    font-size: 30px;
+    margin-left:-55px;
+}
+
+.three{
+    font-size: 30px;
+    float: right;
+    margin-right: 55px;
+}
+
+.shakeImage{
+    width: 100%;
+    margin-top: 30px; 
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.shakeOne{
+    float: left;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+
+.shakeTwo{
+    border-radius: 50%;
+    margin-left:24.5%;
+}
+
+.shakeThree{
+    float: right;
+    margin-right: 80px;
+    border-radius: 50%;
+}
+
+.reviewOne{
+    margin-top: 150px;
+
+}
+
+.faceOne{
+    width: 120px;
+    height: 160px;
+    margin-left: 150px;
+}
+
+.nameOne{
+    font-size: 80px;
+}
+
+.BigGuy{
+    margin-top: 150px;
+    border-style: dashed;
+    border-color: yellowgreen;
+    border-width: 5px;
+    border-radius: 20px;
+    height: 1000px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #fafac3;
+}
+
+.reviewPageTitle{
+    font-size: 80px;
+    margin-left: 40%;
+    
+}
+
+.border{
+    border-style: solid;
+    border-width: 3px;
+    border-color: pink;
+    float: right;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;   
+}
+
+.secondBorder{
+    border-style: solid;
+    border-width: 3px;
+    border-color: pink;  
+    background-color: white;
+    border-radius: 5px;
+}
+
+.reviewTitle{
+    font-size: 70px;
+    padding: 30px;
+}
+
+.reviewCont{
+    font-size: 30px;
+
+}
+
