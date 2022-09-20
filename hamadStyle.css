@@ -12,16 +12,36 @@ hr{
 .container{
     position: sticky;
     float:right;
-    margin-top: -70px;
+    margin-top: -55px;
     margin-right: 85px;
     top: 0;
     width:300px;
     text-align: center; 
     padding: 50px;
     padding-bottom: 150px;
+    font-family: Garamond, serif;
 }
 
+.floater{
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+    background-image: url("1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position: sticky;
+    float: right;
+    top: 30%;
+    margin-right: 0px;
+    margin-left:0px;
+}
 
+.floater:hover{
+    background-image: url("homepage.png");   
+}
 
 h1{
     color: black;
@@ -51,16 +71,13 @@ ul li{
     display: inline-block;
 }
 
-ul li:hover{
-}
-
 ul li:hover ul{
     display: block;
 }
 
 ul li ul{
     position: absolute;
-    width: 275px;
+    width: 245px;
     display: none;
 }
 
@@ -70,7 +87,6 @@ ul li ul li{
     border-width: 1px;
     border-style: solid;
     display: block;
-    //margin 
 }
 
 ul li ul li a{
@@ -78,7 +94,7 @@ ul li ul li a{
 } 
 
 ul li ul li:hover{
-    background: yellow;
+    background: cyan;
 }
 
 .hover1{
@@ -93,29 +109,36 @@ ul li ul li:hover{
     font-size: 14px;
 }
 
-
-.body1{
-
+.ourP{
+    text-align: left;
+    margin-top: -40px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .bodyPar{
-    margin-top: -350px;
+    margin-top: -330px;
     padding: 50px;
     width: 583px;
     height: 260px;
     float: right;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .bodyPar2{
-    margin-top:50px;
+    margin-top:100px;
     margin-left:30px;
     padding: 30px;
     height: 500px;
-    width: 850px;
+    width: 800px;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .image{ 
-    margin-top: -600px;
+    margin-top: -550px;
     margin-right: 30px;
     vertical-align: auto;
     right: 0px;
@@ -127,56 +150,77 @@ ul li ul li:hover{
 .milkshakes{
     position: relative;
     width: auto;
-    margin-top: 150px; 
+    margin-top: 200px; 
     text-align: center; 
 }
 
 .one{
-    font-size: 30px;
+    font-size: 35px;
     float: left;
     vertical-align: middle;
     margin-left: 20px;
+    font-family: 'Courier New', monospace;
 }
 
 .two{
-    font-size: 30px;
-    margin-left:-55px;
+    font-size: 35px;
+    margin-left: -50px;
+    font-family: 'Courier New', monospace;
 }
 
 .three{
-    font-size: 30px;
+    font-size: 35px;
     float: right;
-    margin-right: 55px;
+    margin-right: 35px;
+    font-family: 'Courier New', monospace;
 }
 
 .shakeImage{
     width: 100%;
-    margin-top: 30px; 
+    margin-top: -10px; 
     border-width: 10px;
     border-color: black;
     border-style: solid;
 }
 
-.shakeOne{
-    float: left;
-    margin-left: 80px;
-    border-radius: 50%;
+.imageS{
+    display: flex;
+    justify-content: space-around;
 }
 
-.shakeTwo{
+.shakeOne{
     border-radius: 50%;
-    margin-left:24.5%;
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.raspberry{
+    border-radius: 50%;
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .shakeThree{
-    float: right;
-    margin-right: 80px;
+    height: 300px;
+    width: 250px;
+    margin-right: -40px;
+    margin-top: 50px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
     border-radius: 50%;
 }
 
 .reviewOne{
     margin-top: 150px;
-
 }
 
 .faceOne{
@@ -187,6 +231,8 @@ ul li ul li:hover{
 
 .nameOne{
     font-size: 80px;
+    margin-left: 80px;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .BigGuy{
@@ -195,16 +241,16 @@ ul li ul li:hover{
     border-color: yellowgreen;
     border-width: 5px;
     border-radius: 20px;
-    height: 1000px;
+    height: 1700px;
     padding-right: 10px;
     padding-left: 10px;
     background-color: #fafac3;
 }
 
 .reviewPageTitle{
+    font-family: 'Brush Script MT';
     font-size: 80px;
-    margin-left: 40%;
-    
+    margin-left: 43%;   
 }
 
 .border{
@@ -228,10 +274,40 @@ ul li ul li:hover{
 .reviewTitle{
     font-size: 70px;
     padding: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .reviewCont{
     font-size: 30px;
-
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
 
+.userReview{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.instruction{
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.inputArea{
+    width: 600px;
+    height: 200px;
+}
+
+.userInput{
+    display: none;
+    font-size: 30px;
+    margin-top: 100px;
+    height:200px;
+    width:800px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: pink;  
+    background-color: white;
+    border-radius: 5px;
+    margin-left:23%;
+}
