@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input{
+            width: 30px;
+            text-align: center;
+        }
+        input.short{
+            width: 15px;
+            text-align:center;
+        }
+        input.cvc{
+            width:22.5px;
+            text-align: center;
+        }
+        .purchaseDiv{
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
+            
+            margin: auto;
+            margin-top: 30%;
+            vertical-align: center;
+            height: 50%;
+            width: 50%;    
+        }
+    </style>
+    <link rel = "stylesheet" href="purchaseWindowStyle.css">
+    <script src="hms.js"></script>
+    <div class="purchaseDiv">
+        <h1 class="intructions">Enter Credit Card Info here!</h1>
+        <div class="firsttt">
+            <p1>Credit Card info: </p1>
+            <div class="box1">
+                <form>
+                    <input type="text" id="first" maxlength="4">
+                    <input type="password" id="second" maxlength="4">
+                    <input type="password" id="third" maxlength="4">
+                    <input type="text" id="fourth" maxlength="4">
+                </form>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="seconddd">
+        <p1>Expiry Date: </p1>
+            <form>
+                <div class="box2">
+                    <input type="text" id="month" class="short" maxlength="2">
+                    <p1>/</p1>
+                    <input type="text" id="year" class="short" maxlength="2">
+                </div>
+            </form>
+            <p1 style="margin-left:40px">CVC: </p1>
+            <div class="box3">
+                <form>
+                    <input type="password" id="cvc" class="cvc" maxlength="3">
+                </form>
+            </div>       
+        </div>
+        <br>
+        <div class="thirddd">
+            <button onclick="makePurchase()" class="makePurchase">Make Purchase!</button>
+        </div>
+    </div>
+</html>

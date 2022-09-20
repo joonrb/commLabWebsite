@@ -1,0 +1,32 @@
+.intructions{
+    align-self: center;
+}
+
+.firsttt{
+    display: flex;
+}
+
+.seconddd{
+    display: flex;
+}
+
+.thirddd{
+    margin-left: 72%;
+    margin-bottom: 10px;
+}
+
+.box1{
+    margin-left: 15px;
+}
+
+.box2{
+    margin-left: 15px;
+}
+
+.box3{
+    margin-left: 15px;
+}
+
+.makePurchase{
+    
+}
