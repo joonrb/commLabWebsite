@@ -1,14 +1,11 @@
+/* Index Page CSS Stylesheet */
+
+/* Title style */
 .title{
     text-align: center;
 }
 
-hr{
-    width: 80%;
-    size: 100px;
-    color: black;
-    margin-top: -50px;
-}
-
+/* Style for the hover toggle menu*/
 .container{
     position: sticky;
     float:right;
@@ -22,6 +19,7 @@ hr{
     font-family: Garamond, serif;
 }
 
+/* Style for the hidden menu that will togle when hovered over the container div written above */
 .floater{
     border-color: black;
     border-style: solid;
@@ -109,11 +107,14 @@ ul li ul li:hover{
     font-size: 14px;
 }
 
-.ourP{
+/* Style for the hidden menu that will togle when hovered over the container div written above */
+.ourProduct{
     text-align: left;
     margin-top: -40px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* Style for Body Paragraphs explaining the product*/
 
 .bodyPar{
     margin-top: -330px;
@@ -137,7 +138,9 @@ ul li ul li:hover{
     font-size: 18px;
 }
 
-.image{ 
+/* Poster Positioning */
+
+.milkShakePoster{ 
     margin-top: -550px;
     margin-right: 30px;
     vertical-align: auto;
@@ -147,14 +150,16 @@ ul li ul li:hover{
     height: auto;  
 }
 
-.milkshakes{
+/* Styles and positioning for Milkshake Products */
+
+.milkshakeNames{
     position: relative;
     width: auto;
     margin-top: 200px; 
     text-align: center; 
 }
 
-.one{
+.CHM{
     font-size: 35px;
     float: left;
     vertical-align: middle;
@@ -162,31 +167,28 @@ ul li ul li:hover{
     font-family: 'Courier New', monospace;
 }
 
-.two{
+.Raspberry{
     font-size: 35px;
     margin-left: -50px;
     font-family: 'Courier New', monospace;
 }
 
-.three{
+.Caramel{
     font-size: 35px;
     float: right;
     margin-right: 35px;
     font-family: 'Courier New', monospace;
 }
 
-.shakeImage{
-    width: 100%;
-    margin-top: -10px; 
-    border-width: 10px;
-    border-color: black;
-    border-style: solid;
-}
+/* Flexbox for shake image/links */
 
-.imageS{
+.imageFlexBox{
     display: flex;
     justify-content: space-around;
 }
+
+/* Positioning of shake images/links */
+
 
 .shakeOne{
     border-radius: 50%;
@@ -219,21 +221,39 @@ ul li ul li:hover{
     border-radius: 50%;
 }
 
+/* Review Section Styles*/
+
 .reviewOne{
     margin-top: 150px;
 }
 
+/* Positioning of Reviewer Faces and Names*/
+
 .faceOne{
+    width: 200px;
+    height: 160px;
+    margin-left: 100px;
+}
+
+.faceTwo{
     width: 120px;
     height: 160px;
     margin-left: 150px;
 }
 
 .nameOne{
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.nameTwo{
     font-size: 80px;
     margin-left: 80px;
     font-family: 'Trebuchet MS', sans-serif;
 }
+
+/* Big div for the whole review section: style and positioning */
 
 .BigGuy{
     margin-top: 150px;
@@ -252,6 +272,8 @@ ul li ul li:hover{
     font-size: 80px;
     margin-left: 43%;   
 }
+
+/* Double border style for the review title/content */
 
 .border{
     border-style: solid;
@@ -277,11 +299,13 @@ ul li ul li:hover{
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-.reviewCont{
+.reviewContent{
     font-size: 30px;
     font-family: Tahoma, sans-serif;
     letter-spacing: 1px;
 }
+
+/* User Review section */
 
 .userReview{
     margin-top: 100px;
@@ -297,6 +321,8 @@ ul li ul li:hover{
     width: 600px;
     height: 200px;
 }
+
+/* The hidden user review section that appears with user input when user submits a review */
 
 .userInput{
     display: none;
