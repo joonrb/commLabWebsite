@@ -1,20 +1,49 @@
+/* CSS Stylesheet for purchase window page */
+
+/* input styling for credit card information*/
+input{
+    width: 30px;
+    text-align: center;
+}
+input.short{
+    width: 15px;
+    text-align:center;
+}
+input.cvc{
+    width:22.5px;
+    text-align: center;
+}
+.purchaseDiv{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin: auto;
+    margin-top: 30%;
+    vertical-align: center;
+    height: 50%;
+    width: 50%;    
+}
+
 .intructions{
     align-self: center;
 }
 
-.firsttt{
+/* Layer Flex Boxes */
+
+.firstLayer{
     display: flex;
 }
 
-.seconddd{
+.secondLayer{
     display: flex;
 }
 
-.thirddd{
+.thirdLayer{
     margin-left: 72%;
     margin-bottom: 10px;
 }
 
+/* Positioning of the divs */
 .box1{
     margin-left: 15px;
 }
@@ -25,8 +54,4 @@
 
 .box3{
     margin-left: 15px;
-}
-
-.makePurchase{
-    
 }
