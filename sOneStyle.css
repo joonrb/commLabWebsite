@@ -1,3 +1,6 @@
+/* MilkShake Product Pages CSS style sheet*/
+
+/* The header section is identical with the index css style sheet */
 .title{
     text-align: center;
 }
@@ -116,6 +119,7 @@ ul li ul li:hover{
 
 }
 
+/* Style and positioning of review */
 
 .shakeOne{
     float: left;
@@ -170,6 +174,8 @@ ul li ul li:hover{
     font-size: 30px;
     font-family: 'Trebuchet MS', sans-serif;
 }
+
+/* Purchase Button style */
 
 .purchase{
     border: none;
