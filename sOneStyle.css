@@ -1,0 +1,186 @@
+.title{
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    size: 100px;
+    color: black;
+    margin-top: -50px;
+}
+
+.container{
+    position: sticky;
+    float:right;
+    margin-top: -65px;
+    margin-right: 85px;
+    top: 0;
+    width:300px;
+    text-align: center; 
+    padding: 50px;
+    padding-bottom: 150px;
+    font-family: Garamond, serif;
+}
+
+.floater{
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+    background-image: url("1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position: sticky;
+    float: right;
+    top: 30%;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-top: 120px;
+}
+
+.floater:hover{
+    background-image: url("homepage.png");   
+}
+
+h1{
+    color: black;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont{
+    font-size: 70px;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ul{
+    display: inline;
+    margin-left: -40px;
+}
+
+ul li{
+    display: inline-block;
+}   
+
+ul li:hover ul{
+    display: block;
+}
+
+ul li ul{
+    position: absolute;
+    width: 245px;
+    display: none;
+}
+
+ul li ul li{ 
+    background: white; 
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+}
+
+ul li ul li a{
+    display:block !important;
+} 
+
+ul li ul li:hover{
+    background: cyan;
+}
+
+.hover1{
+    font-size: 14px;
+}
+
+.hover2{
+    font-size: 14px;
+}
+
+.hover3{
+    font-size: 14px;
+}
+
+.ourP{
+    text-align: left;
+    margin-top: -40px;
+
+}
+
+
+.shakeOne{
+    float: left;
+    margin-left: 150px;
+    vertical-align: middle;
+    margin-top: 210px;
+    border-radius: 40%;
+    height: 300px;
+    width: 250px;
+}
+
+.border{
+    margin-top: -20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    float: right;
+    margin-right: 6%;
+    width: 60%;
+    margin-bottom: 150px;
+    padding: 0px;
+}
+
+.secondBorder{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black; 
+    padding: 0px;  
+}
+
+.priceBorder{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 0px;
+    height: 80px;    
+}
+
+.reviewTitle{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.reviewCont{
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+}
+
+.price{
+    margin-top: 105px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.purchase{
+    border: none;
+    color: yellow;
+    padding: 15px 32px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: red;
+    margin-right: 30px;
+    margin-top:1px;
+    border-radius: 25px;
+    float: right;
+}
