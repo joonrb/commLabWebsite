@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html> 
     <head>
+        <!---->
         <style>
+            /*Basic Style included in index page*/
+
+            /*Lines under the title and headers*/
             hr.top { 
                 border-top: 10px solid black;
                 margin-top: -110px;
@@ -28,17 +32,20 @@
         <div>
             <title>Hamad Milkshake</title>
         </div>
+        <!--Floater menu that brings user to homepage. Call to action by showing instruction, "click to homepage" if hovered mouse over-->
         <a href="hamadMilkShake.html" class="floater">
         </a>
         <div class="title">
             <h1>Hamad Milkshake</h1>
             <hr class="top">
+            <!--The hover toggle down menu part-->
             <div class="container">
                 <div>
                     <ul>
                       <li>
                         <p1 class="cont">Products</p1>
                         <ul>
+                        <!--Menu of different products toggled down if hovered. Links to each product page available-->
                           <li><a href="shakeOne.html" class="hover1">Classic Hamad Milkshake</a></li>
                           <li><a href="shakeTwo.html" class="hover2">Raspberry Milkshake</a></li>
                           <li><a href="shakeThree.html" class="hover3">Caramel Milkshake</a></li>
@@ -51,19 +58,22 @@
     </head>
 
     <body>
+        <!--the actual 30mff video-->
         <script src="hms.js"></script>
         <div class="body1">
             <video width="720" height="360" controls style="margin-top: 200px">
                 <source src="HamadMilkshake.mp4" type="video/mp4">
             </video>
 
+            <!--Description of the story of the video: the advertisement of a Milkshake-->
             <div class="bodyPar">
-                <h2 class="ourP">Our Product!</h2>
+                <h2 class="ourProduct">Our Product!</h2>
                 <hr class="sec">
                 <p1>Hamad Milkshake proudly presents our 34 years old running world famous Classic Hamad Milkshake! Along with Raspberry milkshake and our newest addition of Caramel Milkshake, all of our products can be found in our franchise branches all over the world!</p1>
             </div>
         </div>
         <div>
+            <!--More storytelling of the video: advertising the product, Hamad Milkshake.-->
             <div class="bodyPar2">
                 <h2 style="font-family: 'Times New Roman', Times, serif;">Why Hamad Milkshake?</h2>
                 <hr class="thr">
@@ -80,18 +90,21 @@
                     <br>
                     <p1>Made from our very own special secret recipe continued for 34 years now, Hamad Milkshakes are the best, sweetest refreshments you can get! Available in any of our franchise brand stores!</p1>
             </div>
-            <img src="Hamad Milkshake.png" class="image">
+            <!--Poster of our milkshake-->
+            <img src="Hamad Milkshake.png" class="milkShakePoster">
         </div>
             <br/>
 
-        <div class="milkshakes">
-            <p2 class="one">Classic Hamad Milkshake</p2>
-            <p2 class="two">Raspberry Milkshake</p2>
-            <p2 class="three">Caramel Milkshake</p2>
+        <!--Different milkshake products to include different pages. Interactive links that will bring user to product pages-->
+        <div class="milkshakeNames">
+            <p2 class="CHM">Classic Hamad Milkshake</p2>
+            <p2 class="Raspberry">Raspberry Milkshake</p2>
+            <p2 class="Caramel">Caramel Milkshake</p2>
         </div>
 
+        <!--Images of the products that work as links to the product purchase page-->
         <br/>
-        <div class="imageS">
+        <div class="imageFlexBox">
             <a href="shakeOne.html">
                 <img src="1.png" class="shakeOne">
             </a>
@@ -102,50 +115,54 @@
                 <img src="3.png" class="shakeThree">
             </a>
         </div>
+
+        <!--More storytelling with milkshake reviews from customers.-->
         <div class="BigGuy">
 
             <p1 class="reviewPageTitle">Reviews!</p1>
 
             <div class="reviewOne">
-                <img src="ChessPiece.jpg" class="faceOne">
+                <img src="face1.png" class="faceOne">
                 <div class="border">
                     <div class="secondBorder">
                         <p1 class="reviewTitle">Best Milkshake Ever!</p1>
                     </div>
                         <br/>
-                    <p1 class="reviewCont">After drinking Hamad Milkshakes, I promise you, you cannot drink other milkshakes. Hamad Milkshakes are that good! They are so fresh, sweet, and delicious! It is truly the finest refreshment that will make my day!</p1>
+                    <p1 class="reviewContent">After drinking Hamad Milkshakes, I promise you, you cannot drink other milkshakes. Hamad Milkshakes are that good! They are so fresh, sweet, and delicious! The milkshake was so good, it changed me into a Hamad!</p1>
                 </div>
                 <br/>
                 <p1 class="nameOne">Hamad Al Shamsi</p1>
             </div>
 
             <div class="reviewOne">
-                <img src="ChessPiece.jpg" class="faceOne">
+                <img src="face2.png" class="faceTwo">
                 <div class="border">
                     <div class="secondBorder">
                         <p1 class="reviewTitle">My Favorite Milkshake!</p1>
                         <br>
                     </div>
                     <br/>
-                    <p1 class="reviewCont">I was so thirsty when I ran into this awesome milkshake and omg it was sooo good its like super fresh and super delicious and you have to buy it I swear you won't regret</p1>
+                    <p1 class="reviewContent">I was so thirsty when I ran into this awesome milkshake and omg it was sooo good its like super fresh and super delicious and you have to buy it I swear you won't regret</p1>
                     <br>
                 </div>
                 <br/>
-                <p1 class="nameOne">Jun Lee</p1>
+                <p1 class="nameTwo">Jun Lee</p1>
                 <div id="userInputContainer"class="userInput">
                     <p id="userInput" style="font-family: Tahoma, sans-serif;"></p>
                 </div>
             </div>
-
+            <!--User interaction by leaving their own reviews and submitting it which will be uploaded and shown in the website-->
             <div class="userReview">
                 <form>
                     <label for="inputReview" class="instruction">Submit Your Own Review Here!</label>
                     <br>
                     <br>
+                    <!--Call to action to write their own reviews-->
                     <input type="text" id="inputReview" class="inputArea">
                     <br>
                     
                 </form>
+                <!--Call to action to submit the review. Also included javascript element of updating the website with user input review-->
                 <button onclick = "reviewSubmit()" class="userSubmit">Submit</button>
             </div>
 
